@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.landingpage {
+    /* Landing Page */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: relative;
+    width: 1550px;
+    height: 1785px;
+    /* height: 100%; */
+
+    background: #FFFFFF;
+
+}
+
+.homescreen {
+    /* Home Screen */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 50px 80px 80px; */
+    gap: 10px;  
+
+    width: 1550px;
+    height: 850px;
+
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), linear-gradient(360deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%), url(../assest/images/HomeScreen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.frame157 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 284px;
+
+    width: 1390px;
+    height: 720px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.frame133 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 53px;
+
+    width: 1390px;
+    height: 29px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+
+.justsay {
+    /* JustStay */
+
+    margin: 0 auto;
+    width: 110px;
+    height: 29px;
+
+    /* Heading/Heading - 4 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+
+    color: #FFFFFF;
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.frame84 {
+    /* Frame 84 */
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    margin: 0 auto;
+    width: 397px;
+    height: 25px;
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.home {
+    /* Home */
+
+    width: 55px;
+    height: 25px;
+
+    /* Body/Semibold/Semibold - 18 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    letter-spacing: 0.2px;
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+
+}
+
+.about {
+    /* About */
+
+    width: 51px;
+    height: 22px;
+
+    /* Body/Semibold/Semibold - 16 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    letter-spacing: 0.2px;
+
+    color: #EEEEEE;
+
+    text-decoration: none;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.rooms {
+    /* Rooms */
+
+    width: 57px;
+    height: 22px;
+
+    /* Body/Semibold/Semibold - 16 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    letter-spacing: 0.2px;
+
+    color: #EEEEEE;
+
+    text-decoration: none;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.services {
+    /* Services */
+
+    width: 70px;
+    height: 22px;
+
+    /* Body/Semibold/Semibold - 16 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    letter-spacing: 0.2px;
+
+    color: #EEEEEE;
+
+    text-decoration: none;
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+
+}
+
+
+.contact {
+    /* Contact */
+
+    width: 68px;
+    height: 22px;
+
+    /* Body/Semibold/Semibold - 16 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    letter-spacing: 0.2px;
+
+    color: #EEEEEE;
+
+    text-decoration: none;
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+
+}
+
+
+.logout {
+    /* Logout */
+
+    margin: 0 auto;
+    width: 57px;
+    height: 22px;
+
+    /* Body/Semibold/Semibold - 16 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    letter-spacing: 0.2px;
+
+    color: #FFFFFF;
+
+
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+
+.frame135 {
+    /* Frame 135 */
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 604px;
+    height: 407px;
+
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+
+.frame134 {
+    /* Frame 134 */
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 604px;
+    height: 233px;
+
+
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.welcome {
+    /* Welcome To */
+
+    width: 604px;
+    height: 25px;
+
+    /* Body/Semibold/Semibold - 18 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    letter-spacing: 0.2px;
+
+    color: #FFFFFF;
+
+    border: 1px solid transparent;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.hotel {
+    /* Hotel JustStay Ahmedabad India */
+
+    width: 604px;
+    height: 192px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 150%;
+    /* or 96px */
+
+    color: #FFFFFF;
+
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.lorem {
+    /* Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam maxime praesentium Why did the scarecrow win an award? Because he was outstanding in his field. Lorem ipsum */
+
+    width: 604px;
+    height: 66px;
+
+    /* Body/Medium/Medium - 16 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    letter-spacing: 0.2px;
+
+    color: #EEEEEE;
+
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+
+.frame136 {
+    /* Frame 136 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    width: 272px;
+    height: 44px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+
+.btn-book{
+    color: #FFFFFF;
+    background-color: #FF8D41;
+    padding: 12px 24px 12px 24px;
+    border-radius:20px;
+}
+
+
+.btn-explore{
+    color: #FFFFFF;
+    background: transparent;
+    padding: 12px 24px 12px 24px;
+    border-color: #EEEEEE;
+    border-radius:20px;
+}
+
+

@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+}
+
+header{
+    display: block;
+    position: sticky;
+    top:0;
+    z-index: 1000;
+    background-color: #333;
+}
+
+.navbar{
+    top: 0;
+    margin-top: 0px;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li, dt{
+    padding: 10px;
+    margin: 10px;
+    font-size: x-large;
+}
+
+
+li > a{
+    text-decoration: none;
+    color:white;
+}
+
+.form-section {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.table-gallery {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 6px;
+    color: #555;
+}
+
+form {
+    width: 300px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #444;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 7px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+caption {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 6px;
+}
+
+table img {
+    width: 160px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 6px;
+    transition: transform 0.2s ease;
+}
+
+table img:hover {
+    transform: scale(1.05);
+}
+
+.list-section div {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

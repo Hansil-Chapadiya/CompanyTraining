@@ -1,0 +1,310 @@
+.about-section {
+    /* About Screen */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 100px 129px; */
+    gap: 10px;
+
+    width: 1550px;
+    height: 1142px;
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.frame158 {
+    /* Frame 158 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 100px;
+
+    width: 1291px;
+    height: 942px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.frame91 {
+    /* Frame 91 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+
+    width: 159px;
+    height: 22px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.about-font {
+    /* About Us */
+
+    width: 75px;
+    height: 22px;
+
+    /* Body/Semibold/Semibold - 16 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    letter-spacing: 0.2px;
+
+    color: #616161;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+
+.frame140 {
+    /* Frame 140 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 100px;
+
+    width: 1291px;
+    height: 820px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.frame34 {
+    /* Frame 34 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 117px;
+
+    width: 1291px;
+    height: 360px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.frame137 {
+
+    /* Frame 137 */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    width: 524px;
+    height: 360px;
+
+    border: 1.5px solid #E0E0E0;
+    border-radius: 50px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.rect {
+    width: 492px;
+    height: 328px;
+}
+
+.frame139 {
+    /* Frame 139 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    width: 650px;
+    height: 322px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.hist {
+    /* History of JustStay */
+
+    width: 650px;
+    height: 44px;
+
+    /* Heading/Heading - 2 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 110%;
+    /* identical to box height, or 44px */
+
+    color: #424242;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.frame138 {
+    /* Frame 138 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 650px;
+    height: 170px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.medium-btn {
+    /* Medium Button */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 8px;
+
+    width: 126px;
+    height: 44px;
+
+    border: 1.5px solid #FF8D41;
+    border-radius: 12px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+
+.btn-font {
+    /* Read More */
+
+    width: 78px;
+    height: 20px;
+
+    /* Body/Semibold/Semibold - 14 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+    letter-spacing: 0.2px;
+
+    color: #FF8D41;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border: none;
+
+}
+
+.frame35 {
+    /* Frame 35 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 0px;
+    gap: 117px;
+
+    width: 1291px;
+    height: 360px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}

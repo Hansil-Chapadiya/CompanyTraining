@@ -1,0 +1,23 @@
+.service-section {
+    /* Services Screen */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 100px 157px; */
+    gap: 10px;
+
+    width: 1550px;
+    height: 954px;
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 4;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
