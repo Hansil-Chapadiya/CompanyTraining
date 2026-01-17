@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    color: #424242;
+
+}
+
+.homeScreen {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1550px;
+    height: 850px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    /* padding: 15px; */
+    background-image: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%),
+        url(./HomeScreen.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: justify;
+}
+
+.nav-container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 1390px;
+    height: 29px;
+
+}
+
+.logo {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.logo h4 {
+    color: #FFFFFF;
+}
+
+.font-just-stay {
+    color: #FF8D41;
+}
+
+.nav-bar .nav-items {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    list-style-type: none;
+    font-weight: 600;
+
+}
+
+.nav-bar.open {
+
+    width: max-content;
+    height: max-content;
+    /* background: black; */
+
+    padding: 12px 20px 12px 20px;
+    z-index: 10;
+}
+
+.nav-bar.open ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.font {
+
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.landing-msg-container {
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 20px;
+
+    width: 100%;
+    max-width: 604px;
+    height: 407px;
+}
+
+.h1-heading {
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.btn-explore,
+.btn-book {
+
+    border-style: solid;
+    padding: 12px 24px 12px 24px;
+    border-radius: 12px;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.btn-book {
+    background-color: #FF8D41;
+    /* border-color: #FFFFFF; */
+}
+
+.btn-explore {
+    background: transparent;
+    border-color: #FFFFFF;
+}
+
+.btn-book:hover {
+    cursor: pointer;
+    background: transparent;
+    transition: 0.3 ease-in;
+    border-color: #FFFFFF;
+}
+
+.btn-explore:hover {
+    cursor: pointer;
+    background-color: gray;
+    transition: 0.3 ease-in;
+}
+
+.hamburger {
+
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+
+}
+
+
+.hamburger span {
+    width: 16px;
+    height: 3px;
+    background: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+
+    .homeScreen {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 768px;
+        height: 852px;
+        /* height: max-content; */
+        padding: 50px 20px 50px 20px;
+        /* padding: 15px; */
+        background-image: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%),
+            url(./HomeScreen.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+
+    .nav-bar.open{
+        display: flex;
+        flex-direction: column;
+        background-color: gray;
+        padding: 12px 12px;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        gap: 10px;
+        border-radius: 8px; 
+        z-index: 100;
+
+    }
+
+    .nav-bar.open .nav-items{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: flex-start; */
+        gap:12px;
+    }
+
+    .hamburger {
+        display: flex;
+        justify-content: right;
+        align-items: flex-end;
+    }
+
+    .h1-heading {
+        font-size: 22px;
+        line-height: 1.2;
+        font-weight: 600;
+    }
+
+    .logout {
+        display: none;
+    }
+}
